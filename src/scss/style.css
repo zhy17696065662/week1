@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.wrapper header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper section {
+  flex: 1;
+}
+
+.wrapper section .right {
+  width: 100px;
+  float: right;
+}
+
+.wrapper section .left {
+  clear: both;
+}
+
+.wrapper footer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper footer div {
+  width: 20%;
+}
+
+.wrapper footer div img {
+  height: 30px;
+  width: 50px;
+}

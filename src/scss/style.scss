@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    header{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    section{
+        flex: 1;
+        .right{
+            width: 100px;
+            float: right;
+        }
+        .left{
+            clear: both;
+        }
+    }
+    footer{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        div{
+            width: 20%;
+            img{
+                height: 30px;
+                width: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"use strict";console.log(a.js);var html="<div><span>1</span><div>";console.log(b.js);
